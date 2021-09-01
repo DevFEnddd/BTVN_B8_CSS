@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+.main {
+    margin: 30px;
+    width: 1200px;
+}
+
+.main h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.text .text-box {
+    width: 300px;
+    color: #676767;
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px 1px #ddd;
+    padding: 54px 54px 22px;
+    float: left;
+    margin-left: 35px;
+}
+
+.text .content {
+    width: 706px;
+    overflow: hidden;
+    padding-left: 73px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,92 @@
+.main {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+h2 {
+    font-weight: 200;
+    /* độ dày của font chữ */
+}
+
+h2::after {
+    background-color: #ffb737;
+    bottom: -5px;
+    content: "";
+    display: block;
+    left: 0;
+    height: 3px;
+    width: 60px;
+}
+
+.main h3 {
+    margin-top: 40px;
+}
+
+ul {
+    margin-left: -30px;
+    margin-top: 32px;
+}
+
+ul li {
+    list-style: none;
+    color: #a6a6a6;
+    font-size: 15px;
+}
+
+ul li i {
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+ul .i1 i {
+    float: left;
+    padding-left: 2px;
+    margin-right: 2px;
+}
+
+ul .i2 i {
+    float: left;
+    margin-right: -4px;
+    margin-top: 3px;
+}
+
+ul .i2 {
+    margin-bottom: 25px;
+}
+
+ul .i3 i {
+    float: left;
+    padding-top: 2px;
+    padding-right: 21px;
+}
+
+ul .i1 p {
+    line-height: 1.2;
+}
+
+.info {
+    float: left;
+    width: 280px;
+}
+
+.query {
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.contact {
+    margin-top: -25px;
+}
+
+.query form .input1 {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.query form button {
+    background-color: #0cb8b6;
+    border: 1px solid #0cb8b6;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.main h1 {
+    color: #ffce1b;
+    font-size: 45px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin-left: 145px;
+}
+
+ul li {
+    font-style: italic;
+    float: left;
+    width: 490px;
+    text-align: center;
+    padding: 40px;
+    line-height: 1.5;
+    font-size: 15px;
+}
